@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585166547999",
+    "project_id": "repairit-f5e86",
+    "storage_bucket": "repairit-f5e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585166547999:android:6033b7abf9deb023b4792a",
+        "android_client_info": {
+          "package_name": "com.example.repairit2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585166547999-8acjg7tkuitcnaka4nfm9ehe27sjncki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSpwIs1nY-OZ5a3n3arw_NJetyGY0spxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585166547999-8acjg7tkuitcnaka4nfm9ehe27sjncki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
