@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_expertList"
+    android:background="#0097B2"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bold"
+        android:text="Available Experts"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"/>
+    <RelativeLayout
+        android:id="@+id/textBox"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/radius"
+
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/bogartBtn"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bogart"
+            android:gravity="start"
+            app:backgroundTint="@null" />
+
+    <View
+        android:id="@+id/horizontalLine"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/bogartBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#5c3551"
+        app:backgroundTint="@color/main"/>
+
+        <Button
+            android:id="@+id/dodongBtn"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/horizontalLine"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dodong"
+            app:backgroundTint="@null" />
+        <View
+            android:id="@+id/horizontalLine2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/dodongBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#5c3551"
+            app:backgroundTint="@color/main"/>
+        <Button
+            android:id="@+id/arielBtn"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/horizontalLine2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ariel"
+            app:backgroundTint="@null" />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

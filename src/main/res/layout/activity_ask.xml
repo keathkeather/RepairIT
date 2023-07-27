@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Ask"
+    android:background="#0097B2"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bold"
+        android:text="Problem? "
+        android:textColor="#FFFFFF"
+        android:textSize="80sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+
+    <LinearLayout
+        android:id="@+id/textBox"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/radius"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_baseline_camera_alt_24"
+            app:backgroundTint="@color/main"
+            />
+
+        <EditText
+            android:padding="20dp"
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="top"
+            android:text=""
+            android:hint="type here..."/>
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="20sp"
+            app:backgroundTint="@color/main"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

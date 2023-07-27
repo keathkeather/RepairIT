@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097B2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50sp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bold"
+        android:text="How can we help you today?"
+        android:textColor="#FFFFFF"
+        android:textSize="48dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/textBox"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/radius"
+
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/askBtn"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/askanexpert"
+            app:backgroundTint="@null" />
+
+        <View
+            android:id="@+id/horizontalLine"
+            android:layout_width="120dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/askBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="#5c3551" />
+
+        <Button
+            android:id="@+id/bookBtn"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/horizontalLine"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bookanapp"
+            app:backgroundTint="@null" />
+
+
+
+
+        <!--        <Button-->
+<!--            android:id="@+id/askBtn"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:layout_marginLeft="85"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:background="@drawable/askAnExpert"-->
+<!--            android:gravity="center"-->
+<!--            app:backgroundTint="@null" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/bookBtn"-->
+<!--            android:layout_width="187dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_marginLeft="100dp"-->
+<!--            android:layout_marginTop="200dp"-->
+<!--            android:background="@drawable/BookanApp"-->
+<!--            app:backgroundTint="@null" />-->
+
+        <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/logout"
+        android:id="@+id/logoutBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:backgroundTint="@color/main"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

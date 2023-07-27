@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.repairit2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RepairIT2">
+        <activity
+            android:name=".Activity_ohsAriel"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar"/>
+        <activity
+            android:name=".Activity_ohsDodong"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar"/>
+        <activity
+            android:name=".Activity_ohsBogart"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar"/>
+        <activity
+            android:name=".Activity_bookedAriel"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar" />
+        <activity
+            android:name=".Activity_bookedDodong"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar" />
+        <activity
+            android:name=".Activity_bookedBogart"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar" />
+        <activity
+            android:name=".Activity_Ariel"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar" />
+        <activity
+            android:name=".Activity_Dodong"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar" />
+        <activity
+            android:name=".Acitivty_Bogart"
+            android:exported="false"
+            android:theme="@style/Theme.RepairIT2.NoActionBar" />
+        <activity
+            android:name=".Activity_problemPage"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".Activity_expertList"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".Activity_Ask"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".Activity_Registration"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".Activity_Login"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+    </application>
+
+</manifest>

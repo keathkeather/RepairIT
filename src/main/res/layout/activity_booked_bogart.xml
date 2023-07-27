@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_bookedBogart"
+    android:background="#0097B2"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/bold"
+        android:text="Thank you for trusting"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:id="@+id/textBox"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/radius"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:src="@drawable/checkbogart"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+            />
+        <TextView
+            android:id="@+id/succBogart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:text="Succesfully Booked"
+            android:fontFamily="@font/bold"
+            android:layout_marginBottom="30dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
